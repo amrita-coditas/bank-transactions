@@ -1,0 +1,17 @@
+<div>
+  <div>
+    <!-- <h1> Welcome {{account.name}}</h1> -->
+  </div>
+  <div class="card-container" *ngFor="let account of userAccountDetails">
+    <div class="card" (click)="openAccountDetails(account.account_id)">
+      <div class="name-container">
+        <span>Name:</span>
+        <span>{{ account.account_holder }}</span>
+      </div>
+      <div class="name-container">
+        <span>account_type:</span>
+        <span>{{ account.account_type }}</span>
+      </div>
+    </div>
+  </div>
+</div>

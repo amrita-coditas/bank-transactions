@@ -1,0 +1,16 @@
+<div class="form-container">
+  <h2 class="login-txt">Login</h2>
+  <div class="form">
+    <form action="" [formGroup]="login" class="login-form">
+      <div class="email fields">
+        <label for="" class="label">Email</label>
+        <input type="email" formControlName="email" class="form-fields" />
+      </div>
+      <div class="password fields">
+        <label for="" class="label">Password</label>
+        <input type="password" formControlName="password" class="form-fields" />
+      </div>
+      <button class="login-btn" (click)="onLogin()">Submit</button>
+    </form>
+  </div>
+</div>

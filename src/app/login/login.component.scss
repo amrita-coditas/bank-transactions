@@ -1,0 +1,43 @@
+.form-container {
+  width: 600px;
+  height: 600px;
+  background: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .login-txt {
+    color: white;
+    text-align: center;
+  }
+
+  .form-fields {
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  .label {
+    color: white;
+  }
+
+  .fields {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login-btn {
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    color: white;
+    background: blue;
+  }
+}
